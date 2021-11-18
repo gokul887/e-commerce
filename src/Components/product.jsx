@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Product = ({ item }) => {
     
+    // need to implement wishlist
     return (
         <div className="product-container">
             <div className="circle" />

@@ -12,7 +12,7 @@ const Navbars = () => {
                 <Container>
                     <Navbar.Brand><Storefront /></Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link><Link to='/home'>Home</Link></Nav.Link>
+                        <Nav.Link><Link to='/'>Home</Link></Nav.Link>
                         <Nav.Link><Link to='/products'>Products</Link></Nav.Link>
                     </Nav>
                     <Form>

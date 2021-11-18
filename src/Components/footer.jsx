@@ -1,12 +1,12 @@
 import React from 'react'
-import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter, Shop} from "@material-ui/icons";
+import { Facebook, Instagram, MailOutline, Phone, Room, Twitter, Storefront} from "@material-ui/icons";
 import '../styles/footer.css'
 const Footer = () => {
     return (
         <div className="footer-container">
             <div className="left">
                 <div className="logo">
-                    <Shop />
+                    <Storefront />
                     <h4>E-Commerce</h4>
                 </div>
                 <p className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolores ullam quidem officiis veritatis similique mollitia nostrum in tempora doloremque ea, nulla sapiente eum aut, dicta perspiciatis obcaecati? Explicabo, non?</p>
@@ -37,12 +37,15 @@ const Footer = () => {
                 <h4>Contact</h4>
                 <div className="contact">
                     <Room style={{marginRight:"10px"}} />
+                    00000, 00 Ave, Unknown, Unknown, Un
                 </div>
                 <div className="contact">
                     <Phone style={{marginRight:"10px"}} />
+                    +1 234 567 8901
                 </div>
                 <div className="contact">
                     <MailOutline style={{marginRight:"10px"}} />
+                    abc@example.com
                 </div>
             </div>
         </div>

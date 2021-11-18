@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Register = () => {
     return (
         <div className="register-container">
-            <Link to="/home"><CancelOutlined /></Link>
+            <Link to="/"><CancelOutlined /></Link>
             <div className="register-wrapper">
                 <h4>Register</h4>
                 <form>

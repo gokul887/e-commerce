@@ -1,15 +1,11 @@
 import React from 'react'
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
-import styled from "styled-components";
 import { carouselItems } from "../data/data";
 import '../styles/carousel.css'
 
 
 const Carousel = () => {
-    const wrapperStyle = {
-        transform: `translateX(${(props)=> props.slideIndex*-100}vw);`
-    }
     const [slideIndex, setSlideIndex] = useState(0);
     const handleClick = (direction) => {
         if (direction === "left") {
