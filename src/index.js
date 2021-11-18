@@ -7,7 +7,6 @@ import Main from './Main'
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
     <Main />
   </BrowserRouter>,
   document.getElementById('root')
