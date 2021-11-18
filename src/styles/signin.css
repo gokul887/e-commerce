@@ -1,0 +1,64 @@
+.signin-container {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://smhttp-ssl-64590.nexcesscdn.net/media/magpleasure/mpblog/list_thumbnail_file/f/e/cache/1/119bdf99710d9a86013f24c82ab9b2da/fe4715864a082b34f74d1ccf84568830.jpg") center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://smhttp-ssl-64590.nexcesscdn.net/media/magpleasure/mpblog/list_thumbnail_file/f/e/cache/1/119bdf99710d9a86013f24c82ab9b2da/fe4715864a082b34f74d1ccf84568830.jpg") center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signin-container .signin-wrapper {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+}
+
+.signin-container .signin-wrapper h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.signin-container .signin-wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signin-container .signin-wrapper form input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.signin-container .signin-wrapper form button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.signin-container .signin-wrapper form a {
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*# sourceMappingURL=signin.css.map */

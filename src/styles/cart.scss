@@ -1,0 +1,105 @@
+.cart-container {
+    .cart-wrapper {
+        padding: 20px;
+        h4 {
+            font-weight: 300;
+            text-align: center;
+        }
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            button {
+                padding: 10px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .top-text-container {
+                .top-text {
+                    text-decoration: underline;
+                    cursor: pointer;
+                    margin: 0px 10px;
+                }
+            }
+        }
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            .item-info {
+                flex: 3;
+                .product {
+                    display: flex;
+                    justify-content: space-between;
+                    .product-info {
+                        flex: 2;
+                        display: flex;
+                        img {
+                            width: 200px;
+                        }
+                        .details {
+                            padding: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            span {
+
+                            }
+                        }
+                    }
+                    .product-price-container {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        .product-amount {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 20px;                            
+                            .amount-num {
+                                font-size: 24px;
+                                margin: 5px;
+                            }
+                        }
+                        .product-price {
+                            font-size: 30px;
+                            font-weight: 200;
+                        }
+                    }
+                }
+            }
+            .summary {
+                flex: 1;
+                border: 0.5px solid lightgray;
+                border-radius: 10px;
+                padding: 20px;
+                height: 50vh;
+                h1 {
+                    font-weight: 200;
+                }
+                .sum-item {
+                    margin: 30px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    .sum-text {
+                        font-weight: 500;
+                    }
+                    .sum-price {
+
+                    }
+                }
+                .sum-total {
+                    border-top: solid 1px black;
+                }
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: black;
+                    color: white;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

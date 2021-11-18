@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div .navbar .container .navbar-brand .MuiSvgIcon-root {
+  margin-bottom: 5px;
+}
+
+div .navbar .container .me-auto .nav-link a {
+  text-decoration: none;
+  color: white;
+}
+
+div .navbar .container .me-auto .nav-link a:hover {
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 7px;
+}
+
+div .navbar .container .end-auto .nav-link a {
+  text-decoration: none;
+  color: white;
+}
+
+div .navbar .container .end-auto .nav-link a:hover {
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 7px;
+}
+
+div .navbar .container input {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=navbar.css.map */

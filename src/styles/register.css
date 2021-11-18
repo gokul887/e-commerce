@@ -1,0 +1,59 @@
+.register-container {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shoe-guide-2021-1614082142.jpg") center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shoe-guide-2021-1614082142.jpg") center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register-container .register-wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+
+.register-container .register-wrapper h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.register-container .register-wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register-container .register-wrapper form input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+
+.register-container .register-wrapper form button {
+  margin-top: 10px;
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=register.css.map */

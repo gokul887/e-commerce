@@ -1,0 +1,44 @@
+.register-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ),
+        url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shoe-guide-2021-1614082142.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .register-wrapper {
+        width: 40%;
+        padding: 20px;
+        background-color: white;
+        h4 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            input {
+                flex: 1;
+                min-width: 40%;
+                margin: 20px 10px 0px 0px;
+                padding: 10px;
+            }
+            button {
+                margin-top: 10px;
+                width: 40%;
+                border: none;
+                padding: 15px 20px;
+                background-color: teal;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
