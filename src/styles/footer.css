@@ -1,10 +1,10 @@
-.container {
+.footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container .left {
+.footer-container .left {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -18,7 +18,7 @@
   padding: 20px;
 }
 
-.container .left .logo {
+.footer-container .left .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,21 +27,21 @@
           align-items: center;
 }
 
-.container .left .logo h4 {
+.footer-container .left .logo h4 {
   margin: 8px;
 }
 
-.container .left .desc {
+.footer-container .left .desc {
   margin: 20px 0px;
 }
 
-.container .left .sm-container {
+.footer-container .left .sm-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container .left .sm-container .sm-icon {
+.footer-container .left .sm-container .sm-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -58,18 +58,18 @@
   margin-right: 20px;
 }
 
-.container .center {
+.footer-container .center {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   padding: 20px;
 }
 
-.container .center h4 {
+.footer-container .center h4 {
   margin-bottom: 30px;
 }
 
-.container .center ul {
+.footer-container .center ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -80,23 +80,23 @@
       flex-wrap: wrap;
 }
 
-.container .center ul li {
+.footer-container .center ul li {
   width: 50%;
   margin-bottom: 10px;
 }
 
-.container .right {
+.footer-container .right {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   padding: 20px;
 }
 
-.container .right h4 {
+.footer-container .right h4 {
   margin-bottom: 30px;
 }
 
-.container .right h4 .contact {
+.footer-container .right h4 .contact {
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,5 +104,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

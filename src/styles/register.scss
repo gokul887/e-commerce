@@ -11,6 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    .MuiSvgIcon-root {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
     .register-wrapper {
         width: 40%;
         padding: 20px;
@@ -38,6 +43,18 @@
                 background-color: teal;
                 color: white;
                 cursor: pointer;
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px) {
+    .register-wrapper {
+        width: 80% !important;
+        form {
+            flex-wrap: nowrap !important;
+            flex-direction: column;
+            input {
+                border-top: solid 0.5px black;
             }
         }
     }

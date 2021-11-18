@@ -31,4 +31,55 @@ div .navbar .container input {
   margin-right: 10px;
   margin-top: 15px;
 }
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    padding-left: 0;
+    width: 100%;
+  }
+  .navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+  }
+  .navbar .container .MuiSvgIcon-root {
+    display: none;
+  }
+  .navbar .container .me-auto {
+    padding-left: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .navbar .container input {
+    display: none;
+  }
+  .navbar .container .end-auto {
+    padding-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .navbar .container .end-auto .MuiSvgIcon-root {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

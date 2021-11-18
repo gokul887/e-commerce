@@ -15,6 +15,12 @@
           justify-content: center;
 }
 
+.signin-container .MuiSvgIcon-root {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
 .signin-container .signin-wrapper {
   width: 25%;
   padding: 20px;
@@ -60,5 +66,14 @@
   font-size: 12px;
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .signin-wrapper {
+    width: 80% !important;
+  }
+  .signin-wrapper form input {
+    border-top: solid 1px black;
+  }
 }
 /*# sourceMappingURL=signin.css.map */

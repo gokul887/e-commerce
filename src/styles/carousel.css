@@ -94,4 +94,39 @@
 .carousel-container .arrow-right {
   right: 10px;
 }
+
+@media only screen and (max-width: 500px) {
+  .carousel-container .wrapper .slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+    width: 100vw;
+  }
+  .carousel-container .wrapper .slide .img img {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+    width: 100vw;
+  }
+  .carousel-container .wrapper .slide .item-info h4 {
+    font-size: 40px;
+  }
+  .carousel-container .wrapper .slide .item-info h5 {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+  .carousel-container .wrapper .slide .item-info button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
 /*# sourceMappingURL=carousel.css.map */

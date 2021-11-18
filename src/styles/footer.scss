@@ -1,4 +1,4 @@
-.container {
+.footer-container {
     display: flex;
     .left {
         flex: 1;
@@ -58,5 +58,10 @@
                 align-items: center;
             }
         }
+    }
+}
+@media only screen and (max-width:500px) {
+    .footer-container {
+        flex-direction: column;
     }
 }

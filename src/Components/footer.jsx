@@ -3,7 +3,7 @@ import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter, Shop
 import '../styles/footer.css'
 const Footer = () => {
     return (
-        <div className="container">
+        <div className="footer-container">
             <div className="left">
                 <div className="logo">
                     <Shop />

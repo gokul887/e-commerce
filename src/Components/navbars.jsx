@@ -1,5 +1,5 @@
 import React from 'react'
-import { Shop, ShoppingCartOutlined } from "@material-ui/icons";
+import { Storefront, ShoppingCartOutlined } from "@material-ui/icons";
 import { Navbar, Container, Nav,Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +10,7 @@ const Navbars = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home"><Shop /></Navbar.Brand>
+                    <Navbar.Brand><Storefront /></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link><Link to='/home'>Home</Link></Nav.Link>
                         <Nav.Link><Link to='/products'>Products</Link></Nav.Link>

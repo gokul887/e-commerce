@@ -11,6 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    .MuiSvgIcon-root {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
     .signin-wrapper {
         width: 25%;
         padding: 20px;
@@ -42,6 +47,16 @@
                 font-size: 12px;
                 text-decoration: underline;
                 cursor: pointer;
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px) {
+    .signin-wrapper {
+        width: 80% !important;
+        form {
+            input {
+                border-top: solid 1px black;
             }
         }
     }

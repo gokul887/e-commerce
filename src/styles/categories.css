@@ -3,9 +3,9 @@
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding-right: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100vw;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .categories-container .category-container img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
